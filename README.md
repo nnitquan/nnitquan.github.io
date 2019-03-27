@@ -25,11 +25,11 @@
 - zp1903-018/南宁/LabsCare/Python工程师（5~8K）（2群/Sean）
 
 #### >>求职<<
- - qz201903-001/南宁/Java后台/本科/2.5年
- - qz201903-002/南宁/Java后台/本科/3年
- - qz201903-003/南宁/Java后台/本科/5年
- - qz201903-004/南宁/项目管理/本科/7年
+- qz201903-001/南宁/Java后台/本科/2.5年
+- qz201903-002/南宁/Java后台/本科/3年
+- qz201903-003/南宁/Java后台/本科/5年
+- qz201903-004/南宁/项目管理/本科/7年
 
-- 编辑：Zero
-- 归档：https://github.com/nnitquan/nnitquan.github.io/edit/master/README.md
-- 扫码关注【南宁IT圈】公众号。
+`编辑:`Zero
+`归档：`https://github.com/nnitquan/nnitquan.github.io/edit/master/README.md
+`扫码关注【南宁IT圈】公众号。`
