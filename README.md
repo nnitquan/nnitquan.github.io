@@ -30,6 +30,6 @@
 - qz201903-003/南宁/Java后台/本科/5年
 - qz201903-004/南宁/项目管理/本科/7年
 
-`编辑:`Zero
-`归档：`https://github.com/nnitquan/nnitquan.github.io/edit/master/README.md
-`扫码关注【南宁IT圈】公众号。`
+`编辑:Zero
+归档：https://github.com/nnitquan/nnitquan.github.io
+扫码关注【南宁IT圈】公众号。`
