@@ -15,12 +15,32 @@
 <meta property="og:url" content="https://nnitquan.cn/" />
 <meta property="og:site_name" content="nnitquan.cn" />
 <script type="application/ld+json">
-{"name":"@NNITQ","@type":"WebSite","url":"https://nnitquan.cn/","headline":"nnitquan.cn","@context":"http://schema.org"}</script>
+{"name":"@NNITQ","@type":"WebSite","url":"https://nnitquan.cn/","headline":"nnitquan.cn","@context":"http://schema.org"}
+</script>
 <!-- End Jekyll SEO tag -->
 
     <link rel="stylesheet" href="/assets/css/style.css?v=70788622cb9d2121f59912a075a6ff52c2128327">
+    <style>
+        dialog::backdrop{
+            background-color: rgba(0, 0, 0, 0.8)
+        }
+        .dialog_css{ width:600px; border:0} 
+    </style>
   </head>
   <body>
+    <!-- about dialog -->
+    <dialog>
+        <h3>ABOUT NNITQ</h3>
+        <div class="dialog_css">『南宁IT圈』纯粹是群主个人兴趣组织的小圈子，本着交友&交流的初心，聚集了区内外1300+同行小伙伴。希望在区内行业信息、技能交流、求职招聘等方面能帮助到大家。</div>
+        <br>
+        * 扫二维码添加群主微信，记得备注哦(如：张无忌-Java-南宁)
+        <br>
+        <img src="./qunzhu_wechat_qrcode.webp"  alt="群主微信" />
+        <br><br>
+        <label id="close_dialog">关闭(按ESC亦可退出)</label>
+    </dialog>
+    <!-- about dialog -end -- >
+    
     <div class="container-lg px-3 my-5 markdown-body">
       
 
@@ -45,6 +65,22 @@
       [2018-12-22] <a target="_blank" href="http://www.gxuca.net/site/view?id=33">NNITQ MEETUP #1 </a>
       
     </div>
+    <div>
+        <br>
+        <button id="open_dialog_modal">About NNITQ</button>
+    </div>
+    <script>
+        var dialog = document.getElementsByTagName("dialog"),
+        closeDialog = document.getElementById("close_dialog"),
+        openModal = document.getElementById("open_dialog_modal");
+        openModal.onclick = function(){
+            dialog[0].showModal()
+        }
+        closeDialog.onclick = function(){
+            dialog[0].close();
+        }
+    </script>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
     
